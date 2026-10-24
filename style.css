@@ -1,0 +1,506 @@
+
+.header1
+{
+  background-color:purple;
+  height:100px;
+}
+
+*{
+  margin:0px;;
+  padding: 5px;;
+  
+}
+.logo img
+{
+ width:150px;
+ height:60px;
+ margin-top:-20px;
+ margin-left: 600px;
+ 
+ 
+}
+.main_box
+{
+  height:50vh;
+  
+  margin-top:-120px;
+  background-size: cover;
+}
+.btn_one
+{
+  color:white;
+  font-weight: 700;
+  font-size: 30px;
+  left:50px;
+
+  
+
+}
+.sidebar_menu
+{
+  position:fixed;
+  left:-400px;
+  width:250px;
+  height:50vh;
+  background-color: aliceblue;
+  
+  
+}
+.sidebar_menu .btn_two
+{
+   color:grey;
+  font-weight: 700;
+  font-size: 30px;
+
+  left:16px;
+  line-height: 60px;
+}
+.sidebar_menu .menu
+{
+  position:absolute;
+  width:100%;
+  top:10px;
+}
+.sidebar_menu .menu li
+{
+  margin-top:6px;
+  padding:14px 20px;
+  position:relative;
+  color: white;
+}
+.sidebar_menu .menu i
+{
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+  position: absolute;
+
+}
+#check
+{
+  display:none;
+ 
+}
+#check:checked ~ .sidebar_menu
+{
+  left:0;
+  position: absolute;
+}
+.black
+{
+  background-color: black;
+  color:white;
+  height:600px;
+  
+ 
+}
+.small1
+{
+  height:100px;
+  width:120px;
+  color:purple;
+  text-align: center;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  display:inline-block;
+  padding:30px;
+  
+}
+.small1:hover
+{
+  color:blue;
+  
+}
+.small2 
+{
+  height:100px;
+  width:120px;
+  color:purple;
+  text-align: center;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  display:inline-block;
+  padding:25px
+}
+.small2:hover
+{
+  color:blue;
+  
+}
+.small3 
+{
+  height:100px;
+  width:120px;
+  color:purple;
+  text-align: center;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  display:inline-block;
+  padding:25px
+}
+.small3:hover
+{
+  color:blue;
+  
+}
+.small4 
+{
+  height:100px;
+  width:120px;
+  color:purple;
+  text-align: center;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  display:inline-block;
+  padding:25px
+  
+}
+.small4:hover
+{
+  color:blue;
+  
+}
+.header2
+{
+  text-align: center;
+}
+
+.img img
+{
+  margin-left: 5px;
+   column-rule-width: 0dvb;
+   text-align: center;
+
+}
+.orange h5
+{
+   background-color: orangered;
+}
+.button button
+{
+  
+ background-color: #ff6600;
+}
+.button:hover
+{
+  color:blue;
+}
+.button2
+{
+  display: inline-block;
+}
+.frame1
+{
+  text-align: center;
+  height:200px;
+  width:500px;
+  display:inline-block;
+  padding: 25px;
+  margin-left: 150px;
+  
+  border-color:wheat;
+  background-color:azure;
+}
+.frame2
+{
+  text-align: center;
+  height:200px;
+  width:500px;
+  display:inline-block;
+  padding: 25px;
+  margin:25px;
+  border-color:wheat;
+   background-color:azure;
+
+}
+.frame3
+{
+  text-align: center;
+  height:200px;
+  width:500px;
+  display:inline-block;
+  padding: 25px;
+  margin-left:150px;
+  border-color:wheat;
+   background-color:azure;
+}
+.frame4
+{
+  text-align: center;
+  height:150px;
+  width:500px;
+  display:inline-block;
+  padding: 25px;
+  margin:25px;
+  border-color:purple solid;
+  background-color:azure;
+}
+.offered p
+{
+  text-align: center;
+}
+.offered
+{
+  border:purple;
+}
+.card1 
+{
+ 
+  text-align: center;
+  height:350px;
+  width:240px;
+  display:inline-block;
+  padding:25px;
+  margin-left: 200px;
+  background-color: aliceblue;
+  
+
+}
+.card2 
+{
+  text-align: center;
+  height:350px;
+  width:240px;
+  display:inline-block;
+  padding:25px;
+  margin-left:50px;
+  background-color: aliceblue;
+ 
+}
+.card3 
+{
+  
+  text-align: center;
+  height:350px;
+  width:240px;
+  display:inline-block;
+  padding: 25px;
+  margin-left:50px;
+  background-color: aliceblue;
+
+ 
+}
+.campusimg
+{
+  display:flex;
+ 
+}
+.campusimg img
+{
+  width: 30%;
+  height:250px;
+  object-fit: cover;
+}
+.campusimg h2
+{
+     text-align: center;
+}
+.award1
+{
+  height:200px;
+  width:200px;
+  border-radius:50%;
+  background-color: rgb(124, 124, 143);
+  opacity: 0.5;
+  margin-left:450px;
+  display:inline-block;
+  gap: 25px;
+  color:black
+}
+.award1 h3
+{
+   color:black;
+   text-align:center;
+}
+.award1 h1
+{
+ text-align: center;
+ margin-top: 30px;
+ color:rgb(207, 4, 4);
+}
+.award2
+{
+  height:200px;
+  width:200px;
+  border-radius:50%;
+  background-color: rgb(124, 124, 143);
+  opacity: 0.5;
+ 
+  display:inline-block;
+  gap:25px;
+}
+.award2 h3
+{
+   color:black;
+   text-align:center;
+}
+.award2 h1
+{
+ text-align: center;
+  margin-top: 30px;
+  color:rgb(207, 4, 4);
+}
+.award3
+{
+  height:200px;
+  width:200px;
+  border-radius:50%;
+  background-color: rgb(124, 124, 143);
+  opacity: 0.5;
+  margin-left: 550px;
+}
+.award3 h3
+{
+   color:black;
+   text-align:center;
+}
+.award3 h1
+{
+ text-align: center;
+  margin-top: 30px;
+  color:rgb(207, 4, 4);
+}
+
+.box1
+{
+  height: 300px;
+  width:280px;
+  background-color: antiquewhite;
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 50px;
+  gap:20px;
+}
+
+.box2
+{
+  height: 300px;
+  width:280px;
+  background-color: antiquewhite;
+  display: inline-block;
+  margin-left:100px;
+  gap:20px;
+}
+.box3
+{
+  height: 300px;
+  width:280px;
+  background-color: antiquewhite;
+  display: inline-block;
+  margin-left:100px;
+  gap:20px;
+}
+.success p
+{
+  font-family:italic;
+}
+
+.footer
+{ 
+  width:100%;
+  background-color:purple;
+  color: white;
+}
+.content h2 
+{
+  color:purple;
+ 
+
+}
+.footer h5
+{
+  background-color: #ff6600;
+  text-align: center;
+}
+.footer h2
+{
+  color:orangered;
+  
+}
+.footer h1
+{
+
+  text-align: center;
+}
+.footer p
+{
+  text-align: center;
+  
+}
+.apply
+{
+  background-color: #ff6600;
+ 
+}
+.apply:hover
+{
+  color:aqua;
+}
+.apply1
+{
+  text-align: center;
+}
+.none
+{
+  background-color: #ff6600;
+  color:orangered;
+}
+.symbolls
+{
+ 
+  display :inline-flex;
+  margin-left: 50px;
+  
+}
+.facebook
+{
+  width:20px;
+  height:20px;
+  border-radius: 50%;
+  background-color: beige;
+  text-align:center;
+  color:black;
+}
+.facebook:hover
+{
+  color:aqua;
+}
+.twiter
+{
+  width:20px;
+  height:20px;
+  border-radius: 50%;
+  background-color: beige;
+  text-align:center;
+  color:black;
+}
+.twiter:hover
+{
+  color:aqua;
+}
+.link
+{
+  width:20px;
+  height:20px;
+  border-radius: 50%;
+  background-color: beige;
+  text-align:center;
+  color:black;
+}
+.link:hover
+{
+  color:aqua;
+}
+
+.content p
+{
+  font-size: 20px;
+  line-height: 1.8;
+}
+.why h2{
+  text-align: center;
+}
+.privacy
+{
+  text-align: center;
+}
